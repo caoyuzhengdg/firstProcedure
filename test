@@ -1,0 +1,192 @@
+				//=======================================移动测试================
+//				==移动  20150324
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长62个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长-63个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信95599测试：长短信测试1长短信测试2长短信测试3长62个字11111","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信95599测试：长短信测试1长短信测试2长短信测试3长63个字111111","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长62个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长-63个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","重构平台60004端口9901DZ001单条普通短信95599测试：长短信测试1长短信测试2长短信测试3长62个字11111","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","重构平台60004端口9901DZ001单条普通短信95599测试：长短信测试1长短信测试2长短信测试3长63个字111111","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+////			==纯英文移动
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde62","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef63","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde62","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef63","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde62","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef63","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde62","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef63","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				==移动   ===========营销平台==============
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信长71个字（移动收到无签名）","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信70个字（移动收到无签名）","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信95599测试：长短信测试1长短信测试2长短信测试3长短信长71个字（入mas-file-4表）","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信95599测试：长短信测试1长短信测试2长短信测试3长短信70个字（入mas-file-4表）","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信95599测试：提交1069因改参数true用95599发送71个字（入mas-file-4表）","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信95599测试：提交1069因改参数true用95599发70个字（入mas-file-4表）","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//////			==电信
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","重构平台60004端口9901BO001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","重构平台60004端口9901BO001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信70个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				==纯英文移动---95599----
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefg70【江西分行】","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefg70【江西分行】","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde70【中国农业银行】","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef71【中国农业银行】","95599");
+//				oos.write(packet);
+//				oos.flush();	
+//				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefghijklm70","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefghijklmo71","95599");
+//				oos.write(packet);
+//				oos.flush();	
+				
+//			==纯英文移动----1069095599---
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefgh71【江西分行】","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefg70【江西分行】","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcde70【中国农业银行】","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdef71【中国农业银行】","1069095599");
+//				oos.write(packet);
+//				oos.flush();	
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefghijklm70","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","1abcdefghijklmnopqrstuvwxvz2abcdefghijklmnopqrstuvwxvz3abcdefghijklmo71","1069095599");
+//				oos.write(packet);
+//				oos.flush();	
+				
+//				统一办公门户
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001长短信10690955998测试：长短信测试1长短信测试2长短信测试3长短信62个字","10690955998");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001长短信10690955998测试：长短信测试1长短信测试2长短信测试3长短信-63个字","10690955998");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				========================================17086632716==============1707，1708号段=================
+//				=================注意========号码为真实号码--从数据库中抽取--不可直接下发===============17086632716==============1707，1708号段=================
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信95599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试长71个字111111","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","17054154411","重构平台60004端口9901BO001长短信95599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试长71个字111111","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","17054154411","重构平台60004端口9901DZ503长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短长67个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+				
+////			========================================9901DZ503=======9901DJ001====入上层redis  区分优先级 实时加载=================
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","18910319243","重构平台60004端口9901DZ001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901GD006","18910319243","重构平台60004端口9901GD006长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				========================================9901AQ001========以普通短信形式下发====================
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901AQ001","13436828360","重构平台60004端口9901AQ001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901AQ001","18910319243","重构平台60004端口9901AQ001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//				========================================黑名单测试============================
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长62个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901DZ001","13436828360","重构平台60004端口9901DZ001单条普通短信1069095599测试：长短信测试1长短信测试2长短信测试3长62个字","95599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","13436828360","重构平台60004端口9901BO001长短信1069095599测试：长短信测试1长短信测试2长短信测试3长短信测试4长短信测试5长71个字","95599");
+//				oos.write(packet);
+//				oos.flush();
+				
+//========================================小测试================
+//				packet = ABCSubmitMsg.getCMPP_product_code_STK("9901BO001","18910319243","WExKGwEBAAAAG2sivly6CLANABgmj6NFMGnXO1xK8smGzoUo8Mm7OwkJzuA=","1069095599");
+//				oos.write(packet);
+//				oos.flush();
+//				packet = ABCSubmitMsg.getCMPP_product_code("9901BO001","18910319243","MR.JIN DONGYIYI我","1069095599");
+//				oos.write(packet);
+//				oos.flush();

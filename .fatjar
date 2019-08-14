@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Mar 17 16:31:27 CST 2016
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=ABCClient_2016.jar
+manifest.mergeall=true
+manifest.mainclass=net.guodu.test.thread.Start
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

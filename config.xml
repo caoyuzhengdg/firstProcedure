@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<common>
+				
+		<ip>192.168.1.122</ip> 
+<!-- 		<ip>192.168.1.122</ip>  -->
+		<port>50004</port>
+		
+
+		<!-- 短信内容 一表人才两套西装三杯酒量四圈麻将五方交友六出祁山七术打马八口吹牛九分努力十分忍耐 -->
+		<content>一表人才两套西装三杯酒量四圈麻将五方交友六出祁山七术打马八口吹牛九分努力十分忍耐一表人才两套西装三杯酒量四圈麻将五方交友六出祁山七术打马八口吹牛九分努力十分忍耐</content>
+		<!-- 手机号 -->
+		<desmobile>15811514879</desmobile>
+		<!-- 产品代码 -->
+		<product_code>9901AQ008</product_code>
+		<!-- 通道号 -->
+		<longid>1069095599</longid>
+		
+		<!--   -->		
+		<sleep_time>120</sleep_time>
+		<!--  -->
+		<sleep_time2>20</sleep_time2>
+		<right>1</right>
+		<wrong>0</wrong>
+		<client_2>0</client_2>
+		<Office>0</Office>
+		<inner>0</inner>
+		
+	</common>
+</config>
